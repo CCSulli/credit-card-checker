@@ -62,7 +62,7 @@ const findInvalidCards = creditCards => {
     
 };
 
-findInvalidCards(batch);
+console.log(findInvalidCards(batch));
 
 const idInvalidCardCompanies = arr => {  
     const companies= [];
